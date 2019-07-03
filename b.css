@@ -197,7 +197,7 @@ footer p {
 }
 
 /*               */
-@media (max-width: 450px) {
+@media (max-width: 500px) {
 /* header */
   .header-list {
     display: none;
