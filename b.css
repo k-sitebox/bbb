@@ -182,6 +182,9 @@ input {
 textarea {
   padding: 30px 200px;
 }
+.form-submit {
+  cursor: pointer;
+}
 /*footer*/
 footer {
   background-color: darkslategray;
@@ -193,9 +196,44 @@ footer p {
   padding-top: 45px;
 }
 
-
-
-
+/*               */
+@media (max-width: 400px) {
+/* header */
+  .header-list {
+    display: none;
+  }
+/* main */
+  .main-item {
+    display: block;
+  }
+  .main-title h1{
+    font-size: 80px;
+  }
+  .main-title p {
+    font-size: 30px;
+  }
+  .item {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .item img {
+    width: 90%;
+  }
+  .item p {
+    font-size: 30px;
+    padding-top: 10px;
+  }
+/* form */
+  input {
+    width: 176px;
+  }
+  textarea {
+    padding: 30px 0px;
+    width: 100%;
+  }
+/* footer */
+  
+}
 
 
 
