@@ -175,14 +175,15 @@ main {
 .form p {
   padding: 20px 0px 5px 0px;
 }
-input {
-  padding: 5px 80px;
+input[type="email"] {
+  padding: 5px 150px 5px 0px;
 }
 textarea {
-  padding: 30px 200px;
+  padding: 0px 200px 60px 0px;
 }
 .form-submit {
   cursor: pointer;
+  padding:10px 40px;
 }
 /*footer*/
 footer {
@@ -195,7 +196,13 @@ footer p {
   padding-top: 45px;
 }
 
-/*               */
+
+
+
+
+
+
+/* レスポンシブ */
 @media (max-width: 450px) {
 /* header */
   .header-list {
@@ -223,11 +230,12 @@ footer p {
     padding-top: 10px;
   }
 /* form */
-  input {
+  input[type="email"] {
     width: 176px;
+    
   }
   textarea {
-    padding: 30px 0px;
+    padding: 0px 0px 80px 0px;
     width: 100%;
   }
 /* footer */
@@ -238,17 +246,5 @@ footer p {
     width: 90%;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
