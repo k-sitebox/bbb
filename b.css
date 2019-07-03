@@ -176,10 +176,12 @@ main {
   padding: 20px 0px 5px 0px;
 }
 input[type="email"] {
-  padding: 5px 150px 5px 0px;
+  padding: 5px 0px 5px 0px;
+  width: 400px;
 }
 textarea {
-  padding: 0px 200px 60px 0px;
+  padding: 5px 0px 60px 0px;
+  width: 500px;
 }
 .form-submit {
   cursor: pointer;
