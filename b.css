@@ -107,8 +107,7 @@ input, select {
 
 .inner {
   font-family: serif;
-  width:100%;
-  overflow:hidden;
+  
 }
 /*header*/
 header {
