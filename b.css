@@ -105,8 +105,10 @@ input, select {
 
 
 
-body {
+.inner {
   font-family: serif;
+  width:100%;
+  overflow:hidden;
 }
 /*header*/
 header {
@@ -114,6 +116,7 @@ header {
   justify-content: space-between;
   background-color: #26d0c9;
   height: 80px;
+  
 }
 .header-logo {
   font-size: 40px;
