@@ -105,19 +105,90 @@ input, select {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+body {
+  font-family: 'Philosopher', serif;
+}
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #26d0c9;
+  height: 80px;
+}
+.header-logo {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 23px 0px 0px 40px;
+  color: aliceblue;
+}
+span {
+  color: red;
+}
+.header-list ul {
+  display: flex;
+}
+.header-list li {
+  list-style: none;
+  padding: 50px 70px 0px 0px;
+  font-weight: bold;
+}
+.header-list li a{
+  text-decoration: none;
+  color:aliceblue;
+}
+.header-list li a:hover {
+  border-bottom: 2px solid aliceblue;
+  padding-bottom: 5px;
+}
+/*main*/
+main {
+  margin: 80px auto 80px;
+  width: 90%;
+}
+.main-title h1 {
+  font-size: 120px;
+  padding: 0px 0px 10px 0px;
+}
+.main-title p {
+  font-size: 40px;
+  padding: 0px 0px 60px 0px;
+}
+.main-subtitle {
+  font-size: 20px;
+  border-bottom: 1px solid #e6e6fa;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.main-item {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+/*form*/
+.form h3 {
+  border-bottom: 1px solid #e6e6fa;
+  padding-bottom: 10px;
+}
+.form p {
+  padding: 20px 0px 5px 0px;
+}
+input {
+  padding: 5px 80px;
+}
+textarea {
+  padding: 30px 200px;
+}
+/*footer*/
+footer {
+  background-color: darkslategray;
+  height: 100px;
+}
+footer p {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 45px;
+}
 
 
 
