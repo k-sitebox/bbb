@@ -177,11 +177,11 @@ main {
 }
 input[type="email"] {
   padding: 5px 0px 5px 0px;
-  width: 400px;
+  width: 300px;
 }
 textarea {
   padding: 5px 0px 60px 0px;
-  width: 50%;
+  width: 400px;
 }
 .form-submit {
   cursor: pointer;
@@ -233,7 +233,7 @@ footer p {
   }
 /* form */
   input[type="email"] {
-    width: 176px;
+    width: 70%;
     
   }
   textarea {
